@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "单乐",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance":50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/iconPath.png",
+        "selectedIconPath": "pages/images/selectPath.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "list",
+        "iconPath": "pages/images/iconPath.png",
+        "selectedIconPath": "pages/images/selectPath.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "red"
+  },
+  "functionalPages": true
+}
